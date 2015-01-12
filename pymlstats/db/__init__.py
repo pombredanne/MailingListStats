@@ -16,18 +16,3 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 # MA 02111-1301, USA.
 #
-# Authors : Israel Herraiz <herraiz@gsyc.escet.urjc.es>
-
-"""
-Version number. Centralized module to access to have the version number
-in an unique place
-
-@author:       Israel Herraiz
-@organization: Libresoft Research Group, Universidad Rey Juan Carlos
-@copyright:    Universidad Rey Juan Carlos (Madrid, Spain)
-@license:      GNU GPL version 2 or any later version
-@contact:      libresoft-tools-devel@lists.morfeo-project.org
-"""
-
-
-mlstats_version = "0.4"
