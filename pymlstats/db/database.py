@@ -1,4 +1,4 @@
-#-*- coding:utf-8 -*-
+# -*- coding:utf-8 -*-
 # Copyright (C) 2014 Germán Poo-Caamaño <gpoo@calcifer.org>
 #
 # This program is free software; you can redistribute it and/or modify
@@ -71,9 +71,9 @@ class CompressedFiles(Base):
     def __repr__(self):
         return u"<CompressedFiles(url='{0}', " \
                "mailing_list_url='{1}', status='{2}' " \
-               "last_analysis='{3}')>".format(self.mailing_list_url,
-                                              self.mailing_list_name,
-                                              self.project_name,
+               "last_analysis='{3}')>".format(self.url,
+                                              self.mailing_list_url,
+                                              self.status,
                                               self.last_analysis)
 
 

@@ -1,4 +1,4 @@
-#-*- coding:utf-8 -*-
+# -*- coding:utf-8 -*-
 # Copyright (C) 2007-2010 Libresoft Research Group
 #
 # This program is free software; you can redistribute it and/or modify
@@ -339,7 +339,8 @@ class Application(object):
         return archives
 
     def __set_archives_to_analyze(self, mailing_list, archives):
-        today = datetime.datetime.today().strftime(datetimefmt)
+        # today = datetime.datetime.today().strftime(datetimefmt)
+        today = datetime.datetime.today()
 
         # If the given list only includes one archive, force to
         # analyze it.
